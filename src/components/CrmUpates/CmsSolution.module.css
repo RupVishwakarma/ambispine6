@@ -1,0 +1,208 @@
+.cms-solution-feature-container {
+  position: relative;
+  padding: 3rem 1rem;
+  width: 95%;
+  margin: 1rem auto;
+}
+.cms-solution-feature-main {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  justify-content: space-around;
+  margin: 3rem 0rem;
+}
+
+.cms-solution-feature-main-left {
+  /* flex: 1; */
+  width: 40%;
+  color: white;
+  margin: 3rem 1rem;
+}
+.cms-solution-feature-left-content {
+  margin: 1rem;
+}
+.cms-solution-feature-heading {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  position: relative;
+}
+.cms-solution-feature-heading::after {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 3px;
+  background-color: white;
+  left: 0;
+  bottom: -5px;
+}
+.cms-solution-feature-sub-heading {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+}
+.cms-solution-feature-subtitle {
+  font-size: 1.7rem;
+  /* max-width: 600px; */
+  color: var(--background-light);
+}
+.why-choose-explore {
+  margin-top: 2rem;
+  /* padding-top: 3rem; */
+}
+
+.cms-solution-feature-main-right {
+  width: 50%;
+}
+
+.cms-solution-feature-why-chooses-container {
+  width: 100%;
+  max-width: 600px;
+}
+
+.cms-solution-feature-card-container {
+  width: 80%;
+  position: relative;
+  left: 0;
+}
+
+.cms-feaure-second-card {
+  width: calc(95% - 1rem);
+  background-color: rgba(33, 18, 93, 1);
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  /* width: 45%; */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 0.5rem 1rem;
+  margin-bottom: 2rem;
+}
+.cms-solution-feature-card-header {
+  font-size: 1.4rem;
+  transform: translateY(-20px);
+}
+.cms-solution-feature-card-subtitle {
+  font-size: 1rem;
+  color: rgb(244, 244, 244);
+  transform: translateY(-20px);
+}
+
+@media (max-width: 1280px) {
+  .cms-solution-feature-heading {
+    font-size: 2.8rem;
+  }
+  .cms-solution-feature-sub-heading {
+    font-size: 2.2;
+  }
+  .cms-solution-feature-heading::after {
+    width: 70%;
+  }
+  .cms-solution-feature-subtitle {
+    font-size: 1.4rem;
+  }
+
+  .cms-solution-feature-card-container {
+    height: 400px;
+  }
+  .cms-solution-feature-card-container {
+    width: 68%;
+    position: relative;
+  }
+  .cms-solution-feature-card-header {
+    font-size: 1.3rem;
+  }
+  .cms-solution-feature-card-subtitle {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .cms-solution-feature-container {
+    width: 95%;
+    margin: 1rem auto;
+    /* margin-bottom: 2rem; */
+  }
+  .cms-solution-feature-main {
+    flex-direction: column;
+    margin: 2rem;
+  }
+
+  .cms-solution-feature-main-left {
+    width: 100%;
+    height: 500px;
+    margin: 1rem 1rem;
+  }
+  .cms-solution-feature-main-right {
+    width: 100%;
+    height: 600px;
+  }
+  .cms-solution-feature-heading::after {
+    width: 40%;
+  }
+
+  .cms-solution-feature-card-container {
+    height: 400px;
+  }
+  .cms-solution-feature-card-header {
+    font-size: 1.3rem;
+  }
+  .cms-solution-feature-card-subtitle {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .cms-solution-feature-main {
+    flex-direction: column;
+    margin: 0.3rem;
+  }
+  .cms-solution-feature-main-left {
+    width: 100%;
+  }
+  .cms-solution-feature-why-chooses-container {
+    width: 60%;
+  }
+  .cms-solution-feature-heading::after {
+    width: 50%;
+  }
+  .second-section-img-container {
+    height: 318px;
+    margin-top: 8rem;
+  }
+  .cms-solution-feature-main-right {
+    width: 100%;
+  }
+  .cms-solution-feature-card-container {
+    width: 65%;
+  }
+  .cms-feaure-second-card {
+    width: 180%;
+  }
+  .cms-solution-feature-heading {
+    font-size: 2.3rem;
+  }
+  .cms-solution-feature-sub-heading {
+    font-size: 1.8rem;
+  }
+
+  .cms-solution-feature-subtitle {
+    font-size: 1.1rem;
+  }
+}
+@media (max-width: 540px) {
+
+  .cms-feaure-second-card {
+    width: 248%;
+  }
+  .cms-solution-feature-heading {
+    font-size: 1.7rem;
+    margin-top: 3rem;
+  }
+  .cms-solution-feature-sub-heading {
+    font-size: 1.5;
+  }
+
+  .cms-solution-feature-subtitle {
+    font-size: 1.1rem;
+  }
+}

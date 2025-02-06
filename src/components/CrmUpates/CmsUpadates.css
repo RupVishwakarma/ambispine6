@@ -1,0 +1,99 @@
+.CmsUpate-page {
+  margin-top: 70px;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(0, 0, 26) 0%,
+    rgb(0, 0, 26) 40%,
+    rgb(4, 4, 8) 70%,
+    black 100%
+  );
+}
+.content-writing-services-second {
+  background-color: transparent;
+  margin-top: 3rem;
+}
+
+.cmsupdate-second-part-heading {
+  margin-top: 4rem;
+  font-size: 3.5rem;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  position: relative;
+  /* margin-bottom: 2rem; */
+}
+.cmsupdate-second-part-heading::after {
+  content: "";
+  position: absolute;
+  width: 40%;
+  height: 5px;
+  left: 30%;
+  bottom: -10px;
+  background-color: white;
+}
+.content-we-offer-heading {
+  /* margin-top: 4rem; */
+  font-size: 3.5rem;
+  color: white;
+  font-weight: 700;
+  text-align: left;
+  padding-left: 100px;
+}
+.Devlopment {
+  margin-left: 240px;
+}
+.integration {
+  margin-left: 180px;
+}
+.migration {
+  margin-left: 120px;
+}
+.maintenation {
+  margin-left: 60px;
+}
+@media (max-width: 768px) {
+  .cmsupdate-second-part-heading {
+    font-size: 2.5rem;
+  }
+  .content-we-offer-heading{
+    font-size: 2.5rem ;
+    padding-left: 30px;
+  }
+  .cmsupdate-second-part-heading::after {
+
+    width: 70%;
+
+    left: 15%;
+
+  }
+  
+  .Devlopment {
+    margin-left: 120px;
+  }
+  .integration {
+    margin-left: 80px;
+  }
+  .migration {
+    margin-left: 40px;
+  }
+  .maintenation {
+    margin-left: 0px;
+  }
+}
+@media (max-width: 540px) {
+
+          .Devlopment,
+          .integration,
+          .migration,
+          .maintenation {
+            margin-left: 0px;
+          }
+          .cms-solution-feature-card-container {
+                    width: 90%;
+                    margin-top: 2rem;
+                }
+                .cms-solution-feature-heading{
+                    font-size: 1.7rem;
+                }
+        }
+

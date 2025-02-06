@@ -1,0 +1,136 @@
+.imgRLcontentContainer {
+  /* display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 80px 20px; */
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  /* background-color: rgb(233, 30, 30); */
+  
+}
+
+.imgRLcontenMainContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  margin: 2rem;
+  /* max-width: 1350px; */
+  /* width: 100%; */
+  /* background-color: rgba(28, 28, 28, 1); */
+
+}
+
+
+.imgRLImgContainer {
+  /* flex: 1; */
+  max-width: 900px;
+  width: 60%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.ImgWrapperConainer{
+  width: 100%;
+  height: 100%;
+}
+
+.Imgleft {
+  width: 100%;
+  /* height: auto; */
+  height: 100%;
+  object-fit: cover;
+  /* border-radius: 20px; */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.Imgleft:hover {
+  /* transform: scale(1.05) rotate(-1deg); */
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+
+
+
+.imgLContContainer {
+  /* flex: 3; */
+  /* max-width: 800px; */
+  width: 40%;
+  text-align: left;
+}
+
+.imgCheader {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color:#f2f4f7;
+  margin-bottom: 20px;
+}
+
+.imgCsubtitle {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 30px;
+  color: #f3eeee;
+}
+
+
+
+@media (max-width: 768px) {
+  
+
+  .imgRLcontenMainContainer {
+    flex-direction: column; 
+    gap: 20px; 
+  }
+  .imgRLImgContainer {
+
+    /* width: 60%; */
+    height: 400px;
+    width: 100%;
+}
+
+
+.imgLContContainer {
+    /* flex: 3; */
+    /* max-width: 800px; */
+    /* width: 40%; */
+    text-align: left;
+    width: 100%;
+}
+  .imgCheader {
+    font-size: 2rem;
+  }
+
+  .imgCsubtitle {
+    font-size: 1rem; 
+    line-height: 1; 
+  }
+
+.Imgleft {
+    border-radius: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .imgRLImgContainer {
+    height: 300px;
+}
+
+  .imgCheader {
+    font-size: 1.4rem;
+  }
+
+  .imgCsubtitle {
+    font-size: 0.9rem; 
+    line-height: 1.5;
+  }
+
+}
