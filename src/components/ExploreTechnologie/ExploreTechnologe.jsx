@@ -50,7 +50,7 @@ export default function ExploreTechnologi() {
     {services.map((service, index) => (
       <div
         key={index}
-        className={`explore-service-card explore-card-${index}`}
+        className={` explore-service-card explore-card-${index}`}
         // style={{
         //   backgroundColor: service.color,
         //   // top: `${index * 125}px`,

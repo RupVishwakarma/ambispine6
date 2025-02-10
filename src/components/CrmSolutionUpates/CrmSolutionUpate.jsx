@@ -71,6 +71,7 @@ export default function CrmSolutionUpate() {
       subtitle="Manage customers, track sales, and boost productivity with ease."
       className=" "
       heroimg={crmupate1}
+      imagclasName="imagclasName"
       />
       
       <div className='crm-feature-container'>

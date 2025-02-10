@@ -76,6 +76,12 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 0.5rem 1rem;
   margin-bottom: 2rem;
+  transition: all 0.3s ease ;
+}
+.cms-feaure-second-card:hover{
+  transform: scale(1.04);
+  background-color: rgb(26, 5, 111);
+
 }
 .cms-solution-feature-card-header {
   font-size: 1.4rem;
@@ -190,7 +196,6 @@
   }
 }
 @media (max-width: 540px) {
-
   .cms-feaure-second-card {
     width: 248%;
   }

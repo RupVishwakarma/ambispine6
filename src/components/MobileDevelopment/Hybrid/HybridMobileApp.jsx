@@ -14,6 +14,7 @@ import hibrid2 from './../../../images/hibrid2.png';
 import  OurCustomersSection from './../../card/OurCustomersSection';
 
 export default function HybridMobileApp() {
+  
   const comprehensivedata = [
       {
         id:1,
@@ -86,7 +87,7 @@ export default function HybridMobileApp() {
     ]; 
 
   return (
-    <div className='Ios-mobile-aap'>
+    <div className='hybri-mobile-aap'>
       <HeroSection2 heading="IOS APP DEVELOPMENT SERVICES"
       subtitle="Revolutionize your business, enhance customer engagement, and drive growth. With Apple's stringent quality standards and loyal user base, investing in iOS app development can help you tap into a lucrative market and stay ahead of the competition"
       className=" "

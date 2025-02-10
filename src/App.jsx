@@ -79,6 +79,7 @@ import CrmSolutionUpate from './components/CrmSolutionUpates/CrmSolutionUpate';
 import SoftwareSolutionUpdate from './components/softwareSolutionUpdate/softwareSolutionUpdate';
 import DigitalMarketUpdate from './components/DigitalMarketUpdate/DigitalMarketUpdate';
 import ExploreTechnologi from './components/ExploreTechnologie/ExploreTechnologe';
+import SpreadUpdate from './components/spreadsupate/SpreadUpdate';
 
 
 const AdminRoutes = () => (
@@ -169,6 +170,7 @@ const PublicRoutes = () => (
       <Route path="/service/mobile-hibrid"
     element={<HybridMobileApp />}
     />
+    <Route path="/spread" element={<SpreadUpdate />} />
     <Route path="/services/cmsupdate" element={<CmsUpate />} />
     <Route path="servieces/crm-solution" element={<CrmSolutionUpate />} />
     <Route path="/software-solution" element={<SoftwareSolutionUpdate />} />

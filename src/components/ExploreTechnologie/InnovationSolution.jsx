@@ -200,7 +200,7 @@ const InnovationSolution = () => {
           
           <ul className="tech-list">
             {technologyData[category].map((item, idx) => (
-              <li key={idx} className="tech-item">{item}</li>
+              <li key={idx} className="tech-item-item">{item}</li>
             ))}
           </ul>
          

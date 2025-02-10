@@ -77,14 +77,30 @@
 
 }
 .sap{
-        background-color: rgba(255,12,12,1);     
+        background-color: rgba(255,12,12,1);    
+        transition: all 0.2s ease-in-out;
+}
+.sap:hover{
+        background-color: rgb(188, 4, 4);   
+        box-shadow: 10px 10px 2px rgb(188, 4, 4);
+
 }
 .ora-cle{
         background-color: rgba(245,148,12,1);       
 
 }
+.ora-cle:hover{
+        background-color: rgb(197, 116, 4);
+        box-shadow: 10px 10px 2px rgb(197, 116, 4);
+
+}
 .net-suite{
         background-color: rgba(1,35,127,1);
+
+}
+.net-suite:hover{
+        background-color: rgb(4, 26, 86);
+        box-shadow: 10px 10px 2px  rgb(4, 26, 86);
 
 }
 .strategic-card{
@@ -96,9 +112,10 @@
         transition: all .2s linear;
 }
 .strategic-card:hover{
-        /* transform: scale(1.4); */
-        /* transform: skewX(20deg); */
-        box-shadow: 10px 10px 5px red;
+        /* transform: scale(1.01); */
+        transform: skewX(10deg);
+        /* box-shadow: 10px 10px 5px red; */
+
 
 }
 .strategic-card p{
